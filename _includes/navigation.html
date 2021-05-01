@@ -1,0 +1,13 @@
+<nav class="navbar navbar-light bg-light">
+
+  <a class='navbar-brand' href='#'>{{ site.sitename }}</a>
+
+  <ul class="nav nav-pills">
+    {% for feature in site.features %}
+    <li class="nav-item">
+      <a class="nav-link" href='#{{ feature.slug }}'>{{ feature.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</nav>

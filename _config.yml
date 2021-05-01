@@ -1,0 +1,11 @@
+# va in html title
+title: "Prova Onepage"
+# va in html meta description
+description: A Jekyll Landing Page Theme
+# va nella navigazione
+sitename: Prossima Apertura
+# accessibile con site.url
+url: https://prossimaapertura.orizzontale.org
+
+collections:
+  - features

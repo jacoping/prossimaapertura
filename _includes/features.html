@@ -1,0 +1,16 @@
+<main id="features">
+    {% for feature in site.features %}
+    <hr id='{{ feature.slug }}'>
+
+    <section>
+      <a type="button" data-bs-toggle="collapse" href="#{{ feature.slug }}-inner" >{{ feature.heading }}<br>{{ feature.subheading }}</a>
+      <div class="collapse" data-bs-parent="#features" id='{{ feature.slug }}-inner'>
+        <div class="card card-body">
+          {{ feature.content }}
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+
+    <hr>
+</main>
