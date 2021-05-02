@@ -12,28 +12,61 @@
 
   <link href="/res/bootstrap.min.css" rel="stylesheet">
 
+  <style media="screen">
+    .spacer {
+      padding: 0;
+      margin: 0;
+      height: 2rem;
+    }
+
+    .smaller {
+      font-size: .8em;
+    }
+
+    .bg-stripes {
+      background: repeating-linear-gradient(-45deg,
+          yellow,
+          yellow 20px,
+          white 20px,
+          white 40px);
+    }
+
+    #features img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+
 </head>
 
 
-<body>
+<body class="bg-stripes">
   <div class="container">
 
-    <header>
-      <h1>Prossima Apertura</h1>
-      <h2>Un progetto di Orizzontale</h2>
+    <header class="mt-3">
+      <div class="">
+        Orizzontale presents
+      </div>
+      <h1 class="fw-bold">PROSSIMA APERTURA</h1>
+      <h2>Sottotitolo</h2>
 </header>
 
 
     <div class="">
-      Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+      <div class="bg-white p-1">
+  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+</div>
 
-<p>&nbsp</p>
+<div class="spacer"></div>
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="360" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4cd9e6d2-aac4-11eb-84bf-df397a3ba76f"></iframe>
+<iframe frameborder="0" class="juxtapose" width="100%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4cd9e6d2-aac4-11eb-84bf-df397a3ba76f"></iframe>
 
 <div class="ratio ratio-16x9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<div class="spacer"></div>
+
 
 <main id="features">
 
@@ -41,8 +74,8 @@
     
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#progetto_architettonico-inner">
-          Progetto architettonico<br>descrizione
+        <button class="accordion-button collapsed ps-2 pe-3 bg-light fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#progetto_architettonico-inner">
+          PROGETTO ARCHITETTONICO
         </button>
       </h2>
       <div id="progetto_architettonico-inner" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-features">
@@ -52,35 +85,45 @@
 </div>
       </div>
     </div>
+    <div class="spacer"></div>
     
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ricerca_psicosociale-inner">
-          Ricerca Psicosociale<br>descrizione
+        <button class="accordion-button collapsed ps-2 pe-3 bg-light fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#ricerca_psicosociale-inner">
+          RICERCA PSICOSOCIALE
         </button>
       </h2>
       <div id="ricerca_psicosociale-inner" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-features">
         <div class="accordion-body"><p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+<p><img src="/img/placeholder.jpg" alt="" /></p>
+
+<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+<p><img src="/img/placeholder.jpg" alt="" /></p>
 </div>
       </div>
     </div>
+    <div class="spacer"></div>
     
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#attivita_integrate-inner">
-          Attività Integrate<br>descrizione
+        <button class="accordion-button collapsed ps-2 pe-3 bg-light fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#attivita_integrate-inner">
+          ATTIVITÀ INTEGRATE
         </button>
       </h2>
       <div id="attivita_integrate-inner" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-features">
-        <div class="accordion-body"><p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="accordion-body"><h1 id="bla">Bla</h1>
+<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 </div>
       </div>
     </div>
+    <div class="spacer"></div>
     
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#comunicazione-inner">
-          Comunicazione<br>descrizione
+        <button class="accordion-button collapsed ps-2 pe-3 bg-light fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#comunicazione-inner">
+          COMUNICAZIONE
         </button>
       </h2>
       <div id="comunicazione-inner" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-features">
@@ -88,6 +131,7 @@
 </div>
       </div>
     </div>
+    <div class="spacer"></div>
     
   </div>
 
@@ -108,15 +152,15 @@
 
     </div>
 
-    <footer class="mt-5 bg-light">
+    <footer class="mt-5 mb-2 smaller">
     <hr>
-    questo è il footer
+    <p class="fw-bold">PROSSIMA APERTURA is a project by <a class="fw-bold" target="_blank" href="https://www.orizzontale.org">Orizzontale</a> + ??? + ???</p>
+
+    <p>©2021 Orizzontale</p>
 </footer>
 
 
     <script src="/res/bootstrap.bundle.min.js"> </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
-    <!-- <script src='/assets/app.js'></script> -->
 
   </div>
 </body>
