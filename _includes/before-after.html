@@ -1,0 +1,30 @@
+<script src="/res/juxtapose.min.js"></script>
+<link rel="stylesheet" href="/res/juxtapose.css">
+
+<div id="before-after"></div>
+<script>
+slider = new juxtapose.JXSlider('#before-after',
+    [
+        {
+            src: '/img/before.jpg',
+            label: '2016',
+        },
+        {
+          src: '/img/after.jpg',
+            label: '2021',
+        }
+    ],
+    {
+        animate: true,
+        showLabels: true,
+        showCredits: true,
+        startingPosition: "50%",
+        makeResponsive: true
+    });
+</script>
+
+<style media="screen">
+  a.jx-knightlab {
+    display: none !important;
+  }
+</style>
