@@ -25,13 +25,21 @@
       font-size: 2em;
     }
 
+
+    /* sriped background */
+    :root {
+      --stripe-width: 3vw;
+    }
+
     .bg-stripes {
       background: repeating-linear-gradient(-45deg,
           yellow,
-          yellow 20px,
-          white 20px,
-          white 40px);
+          yellow calc(var(--stripe-width)),
+          white calc(var(--stripe-width)),
+          white calc(2 * var(--stripe-width)));
     }
+
+
 
     .bg-yellow {
       background-color: yellow;
