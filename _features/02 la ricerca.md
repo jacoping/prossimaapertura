@@ -1,19 +1,13 @@
 ---
-slug: attivita_integrate
-heading: ATTIVITÀ INTEGRATE
+slug: la_ricerca
+heading: LA RICERCA
 ---
 
-(stili da rivedere)
-
-- TOC
-{:toc}
-
-# Attività 1
 Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
 
+![](/img/placeholder.jpg)
 
-# Attività 2
+
 Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
 
-# Attività 3
-Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+![](/img/placeholder.jpg)
