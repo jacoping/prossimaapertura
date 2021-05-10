@@ -1,7 +1,7 @@
-<div id="{{ include.name }}" class="carousel slide" data-bs-ride="carousel">
+<div id="{{ include.name }}" class="carousel slide" data-bs-interval="false">
   <div class="carousel-indicators">
     {% assign isactive = "active" %}
-    {% assign counter = 1 %}
+    {% assign counter = 0 %}
     {% for image in site.static_files %}
       {% if image.path contains include.folder %}
         <button type="button" data-bs-target="#{{ include.name }}" data-bs-slide-to="{{ counter }}" class="{{ isactive }}"></button>
