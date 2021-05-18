@@ -1,0 +1,3 @@
+The approach integrates interdisciplinary skills, participatory practices and innovative methods in a public work project, combining the physical redevelopment of places with the construction of a collective sense of public space.
+Architecture, psycho-social research, art and communication work together in a programme of events and activities, aimed at actively involving citizens: the construction site, the open dialogue and the collective imagery are three dimensions in which Prossima Apertura interacts with the place and its inhabitants, generating the progressive opening of real and symbolic places, around which a community identifies and expresses itself.  
+Starting in 2019, we have tested the model in the Toscanini neighbourhood of Aprilia (LT).

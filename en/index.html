@@ -1,0 +1,34 @@
+---
+layout: home-nav
+sottotitolo: A new model of <br> urban regeneration
+---
+
+
+<div class="bg-white p-3">
+  {% capture intro %}{% include_relative _snippets/intro.md %}{% endcapture %}
+  {{ intro | markdownify }}
+</div>
+
+
+<div class="spacer2rem"></div>
+
+<!--
+{% include before-after.html %}
+-->
+
+<div class="spacer2rem"></div>
+
+<div class="bg-white p-3">
+  {% capture contesto %}{% include_relative _snippets/contesto.md %}{% endcapture %}
+  {{ contesto | markdownify }}
+</div>
+
+<div class="spacer2rem"></div>
+
+
+{% include features.html %}
+
+<div class="bg-white p-3">
+  {% capture conclusioni %}{% include_relative _snippets/conclusioni.md %}{% endcapture %}
+  {{ conclusioni | markdownify }}
+</div>

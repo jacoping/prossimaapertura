@@ -4,7 +4,7 @@
     {% for feature in site.features %}
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed ps-2 pe-3 bg-light fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#{{ feature.slug }}-inner">
+        <button class="accordion-button collapsed px-3 bg-white h2 mb-0 j-fs-inherit" type="button" data-bs-toggle="collapse" data-bs-target="#{{ feature.slug }}-inner">
           {{ feature.heading }}
         </button>
       </h2>
@@ -12,7 +12,7 @@
         <div class="accordion-body">{{ feature.content }}</div>
       </div>
     </div>
-    <div class="spacer"></div>
+    <div class="spacer2rem"></div>
     {% endfor %}
   </div>
 
