@@ -1,6 +1,6 @@
 <main id="features">
 
-  <div class="accordion accordion-flush" id="accordion-features">
+  <div class="accordion accordion-flush">
     {% for feature in site.features %}
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
@@ -8,7 +8,7 @@
           {{ feature.heading }}
         </button>
       </h2>
-      <div id="{{ feature.slug }}-inner" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-features">
+      <div id="{{ feature.slug }}-inner" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
         <div class="accordion-body">{{ feature.content }}</div>
       </div>
     </div>
@@ -17,15 +17,3 @@
   </div>
 
 </main>
-
-
-<!--
-    <section>
-      <a type="button" data-bs-toggle="collapse" href="#{{ feature.slug }}-inner" >{{ feature.heading }}<br>{{ feature.subheading }}</a>
-      <div class="collapse" data-bs-parent="#features" id='{{ feature.slug }}-inner'>
-        <div class="card card-body">
-          {{ feature.content }}
-        </div>
-      </div>
-    </section>
--->

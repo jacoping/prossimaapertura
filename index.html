@@ -24,9 +24,11 @@ language: ita
 <div class="spacer2rem"></div>
 
 
-{% include features-debug.html %}
+{% include features.html %}
 
 <div class="bg-white p-3">
   {% capture conclusioni %}{% include_relative _snippets/conclusioni.md %}{% endcapture %}
   {{ conclusioni | markdownify }}
 </div>
+
+{% include youtube.html video="q40gkSYyQ0w" %}
