@@ -10,19 +10,16 @@ language: ita
   {{ intro | markdownify }}
 </div>
 
-
-<div class="spacer2rem"></div>
-
-<!--
-{% include before-after.html %}
--->
-
 <div class="spacer2rem"></div>
 
 <div class="bg-white p-3">
   {% capture contesto %}{% include_relative _snippets/contesto.md %}{% endcapture %}
   {{ contesto | markdownify }}
 </div>
+
+<div class="spacer2rem"></div>
+
+{% include before-after.html %}
 
 <div class="spacer2rem"></div>
 
