@@ -3,11 +3,8 @@
 
 <div class="spacer2rem"></div>
 
-<!-- Slider main container -->
-<div class="swiper-container bg-white border border-yellow border-5" id="{{ include.name }}">
-  <!-- Additional required wrapper -->
+<div class="swiper-container" id="{{ include.name }}">
   <div class="swiper-wrapper">
-    <!-- Slides -->
     {% for image in site.static_files %}
       {% if image.path contains include.folder %}
       <div class="swiper-slide swiper-lazy my-3" data-background="{{ image.path }}">
@@ -16,47 +13,21 @@
     {% endfor %}
   </div>
 
-  <!-- If we need pagination -->
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev" id="{{ include.name }}-button-prev"></div>
-  <div class="swiper-button-next" id="{{ include.name }}-button-next"></div>
-
-  <!-- If we need scrollbar -->
+  <div class="swiper-button-prev d-none d-md-block" id="{{ include.name }}-button-prev"></div>
+  <div class="swiper-button-next d-none d-md-block" id="{{ include.name }}-button-next"></div>
   <div class="swiper-scrollbar" id="{{ include.name }}-scrollbar"></div>
 </div>
-
-<style media="screen">
-  .swiper-slide {
-    width: 100%;
-    height: 600px;
-    color: white;
-    background-size: auto 100%;
-    background-position: center;
-    border-radius: 0.25rem;
-    background-repeat: no-repeat;
-  }
-</style>
-
-
 
 <script>
 const swiper_{{ include.name }} = new Swiper('#{{ include.name }}', {
 
-  // Optional parameters
   direction: 'horizontal',
   loop: true,
-
-
-  // Navigation arrows
 
   navigation: {
     nextEl: '#{{ include.name }}-button-next',
     prevEl: '#{{ include.name }}-button-prev',
   },
-
-
-  // And if we need scrollbar
   scrollbar: {
     el: '#{{ include.name }}-scrollbar',
   },

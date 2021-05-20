@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="it" dir="ltr">
+{% if page.language == "eng" %}
+  <html lang="en" dir="ltr">
+{% else %}
+  <html lang="it" dir="ltr">
+{% endif %}
+
 {% include head.html %}
 {% include scripts.html %}
 
 {% include navigation.html %}
 
 <body class="bg-stripes">
+
   <div class="container-fluid">
 
     {% include header.html %}

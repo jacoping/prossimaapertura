@@ -6,21 +6,13 @@
   <title>{{ site.title }}</title>
 
   <link href="/res/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="res/swiper-bundle.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <style media="screen">
 
-    body {
-      line-height: 1.2;
-      font-family: 'Barlow Condensed', sans-serif;
-    }
-
-    p {
-      margin-bottom: 0.5em;
-    }
-
+    /* LAYOUT */
     .container-fluid {
       max-width: 1000px;
     }
@@ -28,6 +20,45 @@
     .spacer2rem {
       padding: 0;
       margin: 2rem 0;
+    }
+
+
+    /* FONTS */
+
+    body {
+      line-height: 1.2;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    /* COLORS */
+
+    body, .link-dark {
+      color: #444;
+    }
+
+    .btn-dark {
+      background-color: #444;
+      border-color: #444;
+    }
+
+    .bg-yellow {
+      background-color: yellow;
+    }
+
+    .border-yellow {
+      border-color: yellow!important;
+    }
+
+    .accordion-button, .accordion-button:not(.collapsed) {
+      color: inherit;
+    }
+
+
+
+    /* TYPOGRAPHY */
+
+    p {
+      margin-bottom: 0.5em;
     }
 
     .smaller {
@@ -42,20 +73,11 @@
       font-size: inherit;
     }
 
-    .bg-yellow {
-      background-color: yellow;
-    }
 
-    .border-yellow {
-      border-color: yellow!important;
-    }
 
-    .accordion-button:not(.collapsed) {
-      color: black;
-    }
-
-    :root {
-      --swiper-theme-color: #666;
+    /* bottoni ITA ENG */
+    nav .btn.disabled {
+      opacity: 100%;
     }
 
 
@@ -73,15 +95,28 @@
     }
 
 
+    /* swiper */
 
-    .bg-yellow {
-      background-color: yellow;
+    :root {
+      --swiper-theme-color: #444;
     }
 
-    #features img {
+    .swiper-slide {
       width: 100%;
-      height: auto;
+      height: 50vw;
+      color: yellow;
+      background-size: auto 100%;
+      background-position: center;
+      border-radius: 0.25rem;
+      background-repeat: no-repeat;
     }
+
+    @media (min-width: 1000px) {
+      .swiper-slide {
+        height: 500px;
+      }
+    }
+
   </style>
 
 </head>
