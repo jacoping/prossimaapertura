@@ -6,11 +6,12 @@
 {% endif %}
 
 {% include head.html %}
-{% include scripts.html %}
 
-{% include navigation.html %}
 
 <body class="bg-stripes">
+
+  {% include navigation.html %}
+  {% include scripts-before.html %}
 
   <div class="container-fluid">
 
@@ -22,8 +23,10 @@
 
     {% include footer.html %}
 
-
   </div>
+
+  {% include scripts-after.html %}
+
 </body>
 
 </html>
