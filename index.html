@@ -3,6 +3,7 @@ layout: home-nav
 sottotitolo: Un nuovo modello di rigenerazione urbana
 ---
 
+
 <div class="bg-white p-3">
   {% capture intro %}{% include_relative _snippets/intro.md %}{% endcapture %}
   {{ intro | markdownify }}
@@ -25,7 +26,7 @@ sottotitolo: Un nuovo modello di rigenerazione urbana
 <div class="spacer2rem"></div>
 
 
-{% include features.html %}
+{% include features-debug.html %}
 
 <div class="bg-white p-3">
   {% capture conclusioni %}{% include_relative _snippets/conclusioni.md %}{% endcapture %}

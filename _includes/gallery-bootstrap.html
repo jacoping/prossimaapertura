@@ -1,0 +1,37 @@
+<!-- this gallery uses bootstrap 5 carousel -->
+<!--  include gallery.html name="gallery_progetto" folder="/img/gallery_progetto"  -->
+
+<div class="spacer2rem"></div>
+<div id="{{ include.name }}" class="carousel slide" data-bs-interval="false">
+  <div class="carousel-indicators">
+    {% assign isactive = "active" %}
+    {% assign counter = 0 %}
+    {% for image in site.static_files %}
+      {% if image.path contains include.folder %}
+        <button type="button" data-bs-target="#{{ include.name }}" data-bs-slide-to="{{ counter }}" class="{{ isactive }}"></button>
+        {% assign isactive = "" %}
+        {% assign counter = counter | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="carousel-inner">
+    {% assign isactive = "active" %}
+    {% for image in site.static_files %}
+      {% if image.path contains include.folder %}
+        <div class="carousel-item {{ isactive }}">
+          <img src="{{ image.path }}" class="d-block w-100" alt="...">
+        </div>
+        {% assign isactive = "" %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#{{ include.name }}" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#{{ include.name }}" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="spacer2rem"></div>

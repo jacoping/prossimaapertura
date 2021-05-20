@@ -1,5 +1,11 @@
 <div class="spacer2rem"></div>
-<div class="ratio ratio-16x9">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{include.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% if jekyll.environment == "development" %}
+  <div class="ratio ratio-16x9">
+    <iframe width="560" height="315" src="https://xxx.youtube.com/embed/{{include.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+{% else %}
+  <div class="ratio ratio-16x9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{include.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+{% endif %}
 <div class="spacer2rem"></div>
