@@ -1,4 +1,4 @@
-## Prospettive
+## Perspectives
 
-Dare forma ad un luogo che accolga le molteplici esperienze dell’abitare può avvenire in molti modi.
-Nell'esperienza presentata, il fenomeno si innesca lasciando spazio e tempo all’inatteso. Aprire a ciò che non è pianificato non significa trascurare la natura generativa del progetto, bensì costruire luoghi che sappiano reagire al movimento di chi li abita, sperimentando sistemi aperti come preludio per nuove forme di urbanità.
+Shaping a vivid place can be done in many ways.
+In the process presented, the phenomenon is triggered by leaving space and time for the unexpected. Opening up to the unplanned does not mean neglecting the generative nature of design, but rather building places that react to the movement of their inhabitants, experimenting with open systems as a prelude to new forms of urbanity.

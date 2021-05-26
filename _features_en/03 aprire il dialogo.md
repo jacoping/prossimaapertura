@@ -1,6 +1,6 @@
 ---
 slug: aprire_il_dialogo
-heading: Open Dialogue
+heading: Open dialogue
 ---
 
 Together with the construction site, the community building process is initiated, designed and coordinated by an interdisciplinary working group, with the aim of investigating the local culture, strengthening the community and reconciling it to the public spaces under construction.

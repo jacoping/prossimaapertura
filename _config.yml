@@ -9,6 +9,7 @@ url: https://prossimaapertura.orizzontale.org
 
 collections:
   - features
+  - features_en
 
 kramdown:
   hard_wrap: true
