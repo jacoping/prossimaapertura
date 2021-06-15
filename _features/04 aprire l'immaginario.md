@@ -27,7 +27,7 @@ La funzione sociale della piazza è anticipata dai ritratti di gruppo del fotogr
 A conclusione, i ritratti a grandezza naturale sono affissi sui ballatoi in una grande mostra temporanea in cui i residenti, vicini ma spesso perfetti sconosciuti, si riconoscono e si incontrano.
 
 {% include gallery.html name="gallery_oratio" folder="/img/gallery_oratio" %}
-{% include youtube.html video="jJMkOnum4mY" %}
+{% include youtube.html video="PjB1JYNAMHQ" %}
 {% include youtube.html video="P3fsSabKsDw" %}
 
 # Oasi

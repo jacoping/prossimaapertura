@@ -26,7 +26,7 @@ The social function of the square is anticipated by the group portraits taken by
 To conclude, the life-size portraits are hung on the walls of the building in a large temporary exhibition in which the residents, neighbours but often perfect strangers, recognise each other and meet.
 
 {% include gallery.html name="gallery_oratio" folder="/img/gallery_oratio" %}
-{% include youtube.html video="jJMkOnum4mY" %}
+{% include youtube.html video="PjB1JYNAMHQ" %}
 {% include youtube.html video="P3fsSabKsDw" %}
 
 # Oasis
