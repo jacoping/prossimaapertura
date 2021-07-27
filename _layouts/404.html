@@ -4,16 +4,18 @@
 
 <body>
 
-  {{content}}
+  <div class="container mt-5">
+    <h1> Nothing found here.. </h1>
+    <p> The page you requested could not be found. In a few seconds you'll be redirected to this site's home page. </p>
+  </div>
 
-  <h1>Nothing found here..</h1>
 
   <script>
 	  let redirect = function () {
 		setTimeout(function(){
 				window.location.replace("/");
 			}
-			, 100);
+			, 1000);
 		}();
 	</script>
 
